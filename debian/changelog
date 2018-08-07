@@ -1,0 +1,8 @@
+ros-lunar-radar-msgs (2.2.0-0stretch) stretch; urgency=high
+
+  * Moving radar_msgs from platform_automation_msgs.
+  * Contributors: Joe Buckner, Joshua Whitley, Sam Rustan
+
+ -- AutonomouStuff Software Development Team <software@autonomoustuff.com>  Tue, 07 Aug 2018 05:00:00 -0000
+
+
