@@ -2,8 +2,12 @@
 Changelog for package pacmod_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.0 (2018-08-07)
+------------------
+
+
+2.1.0 (2018-05-14)
+------------------
 * Fixed typo in message definition for turn.
 * Added additional fault reporting to GlobalRpt.
 * Adding lots of enum values to SystemRptInt.
