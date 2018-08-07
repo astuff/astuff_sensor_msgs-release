@@ -1,0 +1,16 @@
+ros-melodic-kartech-linear-actuator-msgs (2.2.0-0stretch) stretch; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <support@autonomoustuff.com>  Tue, 07 Aug 2018 05:00:00 -0000
+
+ros-melodic-kartech-linear-actuator-msgs (2.1.0-0stretch) stretch; urgency=high
+
+  * Updating package.xml to format 2.
+  * Standardizing package.xml files.
+  * Initial commit.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Team <support@autonomoustuff.com>  Mon, 14 May 2018 05:00:00 -0000
+
+
