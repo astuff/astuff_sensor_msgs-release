@@ -1,0 +1,12 @@
+Source: ros-lunar-astuff-sensor-msgs
+Section: misc
+Priority: extra
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-astuff-sensor-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-delphi-esr-msgs, ros-lunar-delphi-srr-msgs, ros-lunar-ibeo-msgs, ros-lunar-kartech-linear-actuator-msgs, ros-lunar-mobileye-560-660-msgs, ros-lunar-neobotix-usboard-msgs, ros-lunar-pacmod-msgs, ros-lunar-perception-msgs, ros-lunar-radar-msgs
+Description: Messages specific to AStuff-provided sensors.
