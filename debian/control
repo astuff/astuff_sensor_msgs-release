@@ -1,0 +1,12 @@
+Source: ros-kinetic-astuff-sensor-msgs
+Section: misc
+Priority: extra
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-astuff-sensor-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-delphi-esr-msgs, ros-kinetic-delphi-srr-msgs, ros-kinetic-ibeo-msgs, ros-kinetic-kartech-linear-actuator-msgs, ros-kinetic-mobileye-560-660-msgs, ros-kinetic-neobotix-usboard-msgs, ros-kinetic-pacmod-msgs, ros-kinetic-perception-msgs, ros-kinetic-radar-msgs
+Description: Messages specific to AStuff-provided sensors.
