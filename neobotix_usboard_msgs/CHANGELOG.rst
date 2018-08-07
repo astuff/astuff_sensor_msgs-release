@@ -2,8 +2,12 @@
 Changelog for package neobotix_usboard_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.0 (2018-08-07)
+------------------
+
+
+2.1.0 (2018-05-14)
+------------------
 * added sensors list message.
 * removed unconfirmed status addition from neobotix msg
 * deleted 4 sensor message and renamed data1sensor to SensorData
