@@ -90,8 +90,8 @@ tracks:
     patches: null
     release_inc: '0'
     release_repo_url: git@github.com:astuff/astuff_sensor_msgs-release.git
-    release_tag: v2.0.1
+    release_tag: 2.2.0
     ros_distro: melodic
     vcs_type: git
     vcs_uri: https://github.com/astuff/astuff_sensor_msgs.git
-    version: 2.0.1
+    version: 2.2.0
