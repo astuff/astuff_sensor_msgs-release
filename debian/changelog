@@ -1,0 +1,8 @@
+ros-indigo-perception-msgs (2.2.0-0trusty) trusty; urgency=high
+
+  * Moving perception_msgs from platform_automation_msgs.
+  * Contributors: Joe Buckner, Joshua Whitley
+
+ -- AutonomouStuff Software Development Team <software@autonomoustuff.com>  Tue, 07 Aug 2018 05:00:00 -0000
+
+
