@@ -66,11 +66,11 @@ tracks:
     patches: null
     release_inc: '0'
     release_repo_url: git@github.com:astuff/astuff_sensor_msgs-release.git
-    release_tag: 2.2.0
+    release_tag: 2.2.1
     ros_distro: lunar
     vcs_type: git
     vcs_uri: https://github.com/astuff/astuff_sensor_msgs.git
-    version: 2.2.0
+    version: 2.2.1
   melodic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
