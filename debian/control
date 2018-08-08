@@ -1,0 +1,12 @@
+Source: ros-indigo-astuff-sensor-msgs
+Section: misc
+Priority: extra
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-astuff-sensor-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-delphi-esr-msgs, ros-indigo-delphi-srr-msgs, ros-indigo-derived-object-msgs, ros-indigo-ibeo-msgs, ros-indigo-kartech-linear-actuator-msgs, ros-indigo-mobileye-560-660-msgs, ros-indigo-neobotix-usboard-msgs, ros-indigo-pacmod-msgs, ros-indigo-radar-msgs
+Description: Messages specific to AStuff-provided sensors.
