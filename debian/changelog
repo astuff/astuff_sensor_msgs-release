@@ -1,0 +1,20 @@
+ros-lunar-neobotix-usboard-msgs (2.2.1-0stretch) stretch; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Wed, 08 Aug 2018 05:00:00 -0000
+
+ros-lunar-neobotix-usboard-msgs (2.1.0-0stretch) stretch; urgency=high
+
+  * added sensors list message.
+  * removed unconfirmed status addition from neobotix msg
+  * deleted 4 sensor message and renamed data1sensor to SensorData
+  * Adding Data1Sensor message to support individual topics per sensor
+  * Updating package.xml to format 2.
+  * Standardizing package.xml files.
+  * Initial commit.
+  * Contributors: Joe Kale, Joshua Whitley, Kyle Rector
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Mon, 14 May 2018 05:00:00 -0000
+
+
