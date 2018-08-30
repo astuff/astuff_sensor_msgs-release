@@ -18,11 +18,11 @@ tracks:
     patches: null
     release_inc: '1'
     release_repo_url: git@github.com:astuff/astuff_sensor_msgs-release.git
-    release_tag: 2.2.1
+    release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://github.com/astuff/astuff_sensor_msgs.git
-    version: 2.2.1
+    version: :{auto}
   kinetic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
