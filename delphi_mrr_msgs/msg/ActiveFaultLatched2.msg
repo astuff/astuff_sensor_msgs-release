@@ -1,7 +1,0 @@
-Header header
-
-bool ipmaPcanDataRangeCheck
-bool ipmaPcanMissingMsg
-bool vinSignalCompareFailure
-bool moduleNotConfiguredError
-bool carcfgNotConfiguredError
