@@ -1,0 +1,36 @@
+ros-lunar-mobileye-560-660-msgs (2.3.1-0stretch) stretch; urgency=high
+
+  * Merge pull request #31 <https://github.com/astuff/astuff_sensor_msgs/issues/31> from astuff/maint/add_urls
+  * Adding URLs to package.xml files.
+  * Contributors: Daniel-Stanek, Joshua Whitley
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Fri, 07 Dec 2018 06:00:00 -0000
+
+ros-lunar-mobileye-560-660-msgs (2.3.0-0stretch) stretch; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Thu, 04 Oct 2018 05:00:00 -0000
+
+ros-lunar-mobileye-560-660-msgs (2.2.2-0stretch) stretch; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Thu, 30 Aug 2018 05:00:00 -0000
+
+ros-lunar-mobileye-560-660-msgs (2.2.1-0stretch) stretch; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Wed, 08 Aug 2018 05:00:00 -0000
+
+ros-lunar-mobileye-560-660-msgs (2.1.0-0stretch) stretch; urgency=high
+
+  * Updating package.xml to format 2.
+  * Standardizing package.xml files.
+  * Initial commit.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Mon, 14 May 2018 05:00:00 -0000
+
+
