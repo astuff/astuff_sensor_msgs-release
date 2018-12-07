@@ -1,3 +1,37 @@
+## astuff_sensor_msgs (kinetic) - 2.3.1-0
+
+The packages in the `astuff_sensor_msgs` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --ros-distro kinetic --track kinetic astuff_sensor_msgs` on `Fri, 07 Dec 2018 21:00:02 -0000`
+
+These packages were released:
+- `astuff_sensor_msgs`
+- `delphi_esr_msgs`
+- `delphi_mrr_msgs`
+- `delphi_srr_msgs`
+- `derived_object_msgs`
+- `ibeo_msgs`
+- `kartech_linear_actuator_msgs`
+- `mobileye_560_660_msgs`
+- `neobotix_usboard_msgs`
+- `pacmod_msgs`
+- `radar_msgs`
+
+Version of package(s) in repository `astuff_sensor_msgs`:
+
+- upstream repository: https://github.com/astuff/astuff_sensor_msgs.git
+- release repository: https://github.com/astuff/astuff_sensor_msgs-release.git
+- rosdistro version: `2.3.0-0`
+- old version: `2.3.0-0`
+- new version: `2.3.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.9`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## astuff_sensor_msgs (indigo) - 2.3.1-0
 
 The packages in the `astuff_sensor_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --ros-distro indigo --track indigo astuff_sensor_msgs` on `Fri, 07 Dec 2018 20:52:26 -0000`
