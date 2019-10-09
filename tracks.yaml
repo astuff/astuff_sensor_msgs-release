@@ -13,9 +13,11 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: dashing-devel
+    last_release: ros2-3.0.0
+    last_version: 3.0.0
     name: upstream
     patches: null
-    release_inc: 0
+    release_inc: '1'
     release_repo_url: git@github.com:astuff/astuff_sensor_msgs-release.git
     release_tag: ros2-:{version}
     ros_distro: dashing
