@@ -1,0 +1,60 @@
+ros-dashing-pacmod-msgs (3.0.0-2bionic) bionic; urgency=high
+
+  * Ported to ROS2 Dashing.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Tue, 08 Oct 2019 05:00:00 -0000
+
+ros-dashing-pacmod-msgs (2.3.1-2bionic) bionic; urgency=high
+
+  * Merge pull request #31 <https://github.com/astuff/astuff_sensor_msgs/issues/31> from astuff/maint/add_urls
+  * Adding URLs to package.xml files.
+  * Contributors: Daniel-Stanek, Joshua Whitley
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Fri, 07 Dec 2018 06:00:00 -0000
+
+ros-dashing-pacmod-msgs (2.3.0-2bionic) bionic; urgency=high
+
+  * PACMod: Add COMPONENT_RPT and CLEAR_FAULTS flag. (#28 <https://github.com/astuff/astuff_sensor_msgs/issues/28>)
+  * Merge pull request #27 <https://github.com/astuff/astuff_sensor_msgs/issues/27> from astuff/fix/turn_signal_values
+  * PACMod: Making message def. match DBC.
+  * Contributors: Joshua Whitley, Zach Oakes
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Thu, 04 Oct 2018 05:00:00 -0000
+
+ros-dashing-pacmod-msgs (2.2.2-2bionic) bionic; urgency=high
+
+  * Merge pull request #24 <https://github.com/astuff/astuff_sensor_msgs/issues/24> from astuff/maint/add_none_shift_cmd
+  * PACMod: Removing unused report values.
+  * MKZ: Adding NONE value to shift states.
+  * Contributors: Joshua Whitley, driscoll85
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Thu, 30 Aug 2018 05:00:00 -0000
+
+ros-dashing-pacmod-msgs (2.2.1-2bionic) bionic; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Wed, 08 Aug 2018 05:00:00 -0000
+
+ros-dashing-pacmod-msgs (2.1.0-2bionic) bionic; urgency=high
+
+  * Fixed typo in message definition for turn.
+  * Added additional fault reporting to GlobalRpt.
+  * Adding lots of enum values to SystemRptInt.
+  * Adding more fault reporting to PACMod reports.
+  * Added new messages to pacmod_msgs
+  * Added clear_override flag to SteerSystemCmd.
+  * Adding clear_override flag.
+  * Adding specialized message for steering control.
+  * Adding missing headers and new fields for invidual system control.
+  * Updating package.xml to format 2.
+  * Adding pacmod_msgs/VinRpt.
+  * Standardizing package.xml files.
+  * Change steering pid3 report
+  * Initial commit.
+  * Contributors: Daniel Stanek, Joe Driscoll, Joshua Whitley
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Mon, 14 May 2018 05:00:00 -0000
+
+
