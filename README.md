@@ -1,3 +1,37 @@
+## astuff_sensor_msgs (melodic) - 3.0.1-1
+
+The packages in the `astuff_sensor_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --rosdistro melodic astuff_sensor_msgs` on `Thu, 23 Jan 2020 22:46:02 -0000`
+
+These packages were released:
+- `astuff_sensor_msgs`
+- `delphi_esr_msgs`
+- `delphi_mrr_msgs`
+- `delphi_srr_msgs`
+- `derived_object_msgs`
+- `ibeo_msgs`
+- `kartech_linear_actuator_msgs`
+- `mobileye_560_660_msgs`
+- `neobotix_usboard_msgs`
+- `pacmod_msgs`
+- `radar_msgs`
+
+Version of package(s) in repository `astuff_sensor_msgs`:
+
+- upstream repository: https://github.com/astuff/astuff_sensor_msgs.git
+- release repository: https://github.com/astuff/astuff_sensor_msgs-release.git
+- rosdistro version: `2.3.1-0`
+- old version: `2.3.1-0`
+- new version: `3.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.15`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## astuff_sensor_msgs (dashing) - 3.0.0-2
 
 The packages in the `astuff_sensor_msgs` repository were released into the `dashing` distro by running `/usr/bin/bloom-release --track dashing --rosdistro dashing astuff_sensor_msgs --edit` on `Wed, 09 Oct 2019 02:18:37 -0000`
