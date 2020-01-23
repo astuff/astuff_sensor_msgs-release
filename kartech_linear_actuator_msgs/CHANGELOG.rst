@@ -2,9 +2,13 @@
 Changelog for package kartech_linear_actuator_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.0.0 (2019-10-08)
+3.0.1 (2020-01-23)
 ------------------
-* Ported to ROS2 Dashing.
+* Adding ros_environment as required package to all packages.
+* Hybridizing kartech_linear_actuator_msgs. (`#43 <https://github.com/astuff/astuff_sensor_msgs/issues/43>`_)
+* Adding hybrid CI.
+* Updating package.xml files for ROS2 rosdep.
+* Adding message migration rules.
 * Contributors: Joshua Whitley
 
 2.3.1 (2018-12-07)
