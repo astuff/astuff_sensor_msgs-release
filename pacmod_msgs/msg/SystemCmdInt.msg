@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 bool enable
 bool ignore_overrides
@@ -48,6 +48,10 @@ uint16 TURN_RIGHT = 0
 uint16 TURN_NONE = 1
 uint16 TURN_LEFT = 2
 uint16 TURN_HAZARDS = 3
+
+uint16 DOOR_NEUTRAL = 0
+uint16 DOOR_OPEN = 1
+uint16 DOOR_CLOSE = 2
 
 uint16 WIPERS_OFF = 0
 uint16 WIPERS_INT_1 = 1
