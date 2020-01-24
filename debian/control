@@ -1,0 +1,12 @@
+Source: ros-dashing-radar-msgs
+Section: misc
+Priority: optional
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ament-lint-auto, ros-dashing-ament-lint-common, ros-dashing-builtin-interfaces, ros-dashing-geometry-msgs, ros-dashing-ros-environment, ros-dashing-rosidl-default-generators, ros-dashing-std-msgs, ros-dashing-ros-workspace, ros-dashing-rmw-connext-cpp, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation, ros-dashing-rmw-opensplice-cpp, ros-dashing-rosidl-typesupport-connext-c, ros-dashing-rosidl-typesupport-connext-cpp, ros-dashing-rosidl-typesupport-opensplice-c, ros-dashing-rosidl-typesupport-opensplice-cpp
+Homepage: http://wiki.ros.org/radar_msgs
+Standards-Version: 3.9.2
+
+Package: ros-dashing-radar-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-builtin-interfaces, ros-dashing-geometry-msgs, ros-dashing-rosidl-default-runtime, ros-dashing-std-msgs, ros-dashing-ros-workspace
+Description: Generic Radar Messages
