@@ -12,14 +12,14 @@ tracks:
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: dashing-devel
+    devel_branch: master
     last_release: ros2-3.0.0
     last_version: 3.0.0
     name: upstream
     patches: null
     release_inc: '2'
     release_repo_url: git@github.com:astuff/astuff_sensor_msgs-release.git
-    release_tag: ros2-:{version}
+    release_tag: :{version}
     ros_distro: dashing
     vcs_type: git
     vcs_uri: https://github.com/astuff/astuff_sensor_msgs.git
