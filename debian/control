@@ -1,0 +1,12 @@
+Source: ros-noetic-astuff-sensor-msgs
+Section: misc
+Priority: optional
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-ros-environment
+Homepage: http://wiki.ros.org/astuff_sensor_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-astuff-sensor-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-delphi-esr-msgs, ros-noetic-delphi-srr-msgs, ros-noetic-derived-object-msgs, ros-noetic-ibeo-msgs, ros-noetic-kartech-linear-actuator-msgs, ros-noetic-mobileye-560-660-msgs, ros-noetic-neobotix-usboard-msgs, ros-noetic-pacmod-msgs
+Description: Messages specific to AStuff-provided sensors.
