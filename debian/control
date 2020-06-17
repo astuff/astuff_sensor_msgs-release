@@ -1,0 +1,12 @@
+Source: ros-noetic-ibeo-msgs
+Section: misc
+Priority: optional
+Maintainer: AutonomouStuff Software Team <support@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-ros-environment, ros-noetic-std-msgs
+Homepage: http://wiki.ros.org/kartech_linear_actuator_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ibeo-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: The ibeo_msgs package
