@@ -1,0 +1,12 @@
+Source: ros-noetic-mobileye-560-660-msgs
+Section: misc
+Priority: optional
+Maintainer: AutonomouStuff Software Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-ros-environment, ros-noetic-std-msgs
+Homepage: http://wiki.ros.org/mobileye_560_660_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-mobileye-560-660-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: Message definitions for the Mobileye 560/660
