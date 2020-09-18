@@ -1,3 +1,36 @@
+## astuff_sensor_msgs (eloquent) - 3.1.0-1
+
+The packages in the `astuff_sensor_msgs` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --rosdistro eloquent --track eloquent --new-track astuff_sensor_msgs` on `Fri, 18 Sep 2020 15:41:43 -0000`
+
+These packages were released:
+- `astuff_sensor_msgs`
+- `delphi_esr_msgs`
+- `delphi_mrr_msgs`
+- `delphi_srr_msgs`
+- `derived_object_msgs`
+- `ibeo_msgs`
+- `kartech_linear_actuator_msgs`
+- `mobileye_560_660_msgs`
+- `neobotix_usboard_msgs`
+- `pacmod_msgs`
+
+Version of package(s) in repository `astuff_sensor_msgs`:
+
+- upstream repository: https://github.com/astuff/astuff_sensor_msgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `3.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## astuff_sensor_msgs (foxy) - 3.1.0-1
 
 The packages in the `astuff_sensor_msgs` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy --new-track astuff_sensor_msgs` on `Fri, 18 Sep 2020 15:09:58 -0000`
