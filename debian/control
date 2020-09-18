@@ -1,0 +1,12 @@
+Source: ros-foxy-astuff-sensor-msgs
+Section: misc
+Priority: optional
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-environment, ros-foxy-ros-workspace
+Homepage: http://wiki.ros.org/astuff_sensor_msgs
+Standards-Version: 3.9.2
+
+Package: ros-foxy-astuff-sensor-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-delphi-esr-msgs, ros-foxy-delphi-srr-msgs, ros-foxy-derived-object-msgs, ros-foxy-ibeo-msgs, ros-foxy-kartech-linear-actuator-msgs, ros-foxy-mobileye-560-660-msgs, ros-foxy-neobotix-usboard-msgs, ros-foxy-pacmod-msgs, ros-foxy-ros-workspace
+Description: Messages specific to AStuff-provided sensors.
