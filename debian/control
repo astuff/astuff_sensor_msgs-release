@@ -1,0 +1,12 @@
+Source: ros-eloquent-derived-object-msgs
+Section: misc
+Priority: optional
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake, ros-eloquent-ament-lint-auto, ros-eloquent-ament-lint-common, ros-eloquent-builtin-interfaces, ros-eloquent-geometry-msgs, ros-eloquent-ros-environment, ros-eloquent-rosidl-default-generators, ros-eloquent-shape-msgs, ros-eloquent-std-msgs, ros-eloquent-ros-workspace, ros-eloquent-rosidl-typesupport-connext-c, ros-eloquent-rosidl-typesupport-connext-cpp, ros-eloquent-rosidl-typesupport-fastrtps-c, ros-eloquent-rosidl-typesupport-fastrtps-cpp, ros-eloquent-rmw-connext-cpp, ros-eloquent-rmw-fastrtps-cpp, ros-eloquent-rmw-implementation, ros-eloquent-rmw-opensplice-cpp, ros-eloquent-rosidl-typesupport-opensplice-c, ros-eloquent-rosidl-typesupport-opensplice-cpp
+Homepage: http://wiki.ros.org/derived_object_msgs
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-derived-object-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-builtin-interfaces, ros-eloquent-geometry-msgs, ros-eloquent-rosidl-default-runtime, ros-eloquent-shape-msgs, ros-eloquent-std-msgs, ros-eloquent-ros-workspace
+Description: Abstracted Messages from Perception Modalities
