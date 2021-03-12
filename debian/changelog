@@ -1,0 +1,70 @@
+ros-noetic-delphi-esr-msgs (3.2.0-1focal) focal; urgency=high
+
+  * Bag migration rules cleanup (#76 <https://github.com/astuff/astuff_sensor_msgs/issues/76>)
+    * delphi_esr_msgs: Consolidate bag migration rules
+  * Update delphi_esr_msgs (#69 <https://github.com/astuff/astuff_sensor_msgs/issues/69>)
+    * Update delphi_esr_msgs to closer match documentation and fix typos
+    * Update delphi_esr_msgs CMakeLists.txt
+    * Change from EsrTrackMotionPower to EsrTrackMotionPowerTrack
+    * Add migration file for changes to delphi_esr_msgs
+    * Fix up old migration rules, order was wrong, remove duplication
+    * Factor out install directive for migration folder
+    * Fix CATKIN_PACKAGE_SHARE_DESTINATION for ROS2
+  * Contributors: icolwell-as
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Fri, 12 Mar 2021 05:00:00 -0000
+
+ros-noetic-delphi-esr-msgs (3.1.0-1focal) focal; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Wed, 17 Jun 2020 04:00:00 -0000
+
+ros-noetic-delphi-esr-msgs (3.0.1-1focal) focal; urgency=high
+
+  * Adding ros_environment as required package to all packages.
+  * ROS1/2 Hybrid: delphi_esr_msgs (#37 <https://github.com/astuff/astuff_sensor_msgs/issues/37>)
+    * Adding hybrid CI.
+    * Hybridizing delphi_esr_msgs.
+    * Updating package.xml files for ROS2 rosdep.
+    * Adding message migration rules.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Thu, 23 Jan 2020 05:00:00 -0000
+
+ros-noetic-delphi-esr-msgs (2.3.1-1focal) focal; urgency=high
+
+  * Merge pull request #31 <https://github.com/astuff/astuff_sensor_msgs/issues/31> from astuff/maint/add_urls
+  * Adding URLs to package.xml files.
+  * Contributors: Daniel-Stanek, Joshua Whitley
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Fri, 07 Dec 2018 05:00:00 -0000
+
+ros-noetic-delphi-esr-msgs (2.3.0-1focal) focal; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Thu, 04 Oct 2018 04:00:00 -0000
+
+ros-noetic-delphi-esr-msgs (2.2.2-1focal) focal; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Thu, 30 Aug 2018 04:00:00 -0000
+
+ros-noetic-delphi-esr-msgs (2.2.1-1focal) focal; urgency=high
+
+
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Wed, 08 Aug 2018 04:00:00 -0000
+
+ros-noetic-delphi-esr-msgs (2.1.0-1focal) focal; urgency=high
+
+  * Updating package.xml to format 2.
+  * Standardizing package.xml files.
+  * Removing properties that aren't part of raw message in EsrEthTx.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Team <software@autonomoustuff.com>  Mon, 14 May 2018 04:00:00 -0000
+
+
