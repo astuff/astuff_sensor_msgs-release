@@ -2,21 +2,7 @@
 Changelog for package delphi_esr_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.2.0 (2021-03-12)
-------------------
-* Bag migration rules cleanup (`#76 <https://github.com/astuff/astuff_sensor_msgs/issues/76>`_)
-  * delphi_esr_msgs: Consolidate bag migration rules
-* Update delphi_esr_msgs (`#69 <https://github.com/astuff/astuff_sensor_msgs/issues/69>`_)
-  * Update delphi_esr_msgs to closer match documentation and fix typos
-  * Update delphi_esr_msgs CMakeLists.txt
-  * Change from EsrTrackMotionPower to EsrTrackMotionPowerTrack
-  * Add migration file for changes to delphi_esr_msgs
-  * Fix up old migration rules, order was wrong, remove duplication
-  * Factor out install directive for migration folder
-  * Fix CATKIN_PACKAGE_SHARE_DESTINATION for ROS2
-* Contributors: icolwell-as
-
-3.1.0 (2020-06-17)
+3.0.2 (2020-06-18)
 ------------------
 
 3.0.1 (2020-01-23)

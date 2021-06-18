@@ -1,10 +1,9 @@
 std_msgs/Header header
 
-# ESR Status3
+# ESR status3
 string      canmsg
-
-uint8       interface_version
 uint8       hw_version
+uint8       interface_version
+uint8       sw_version_pld
 string      sw_version_host
 string      serial_num
-uint8       sw_version_pld

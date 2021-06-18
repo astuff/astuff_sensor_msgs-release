@@ -1,8 +1,7 @@
 std_msgs/Header header
 
-# ESR Valid2
+# ESR valid2
 string      canmsg
-
 uint8       mr_sn
 float32     mr_range
 float32     mr_range_rate

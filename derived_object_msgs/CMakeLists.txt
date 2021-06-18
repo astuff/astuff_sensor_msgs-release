@@ -5,6 +5,7 @@ find_package(ros_environment REQUIRED)
 set(ROS_VERSION $ENV{ROS_VERSION})
 
 set(MSG_FILES
+  "CipvTrack.msg"
   "Lane.msg"
   "LaneModels.msg"
   "Object.msg"
@@ -27,6 +28,7 @@ if(${ROS_VERSION} EQUAL 1)
     COMPONENTS
       geometry_msgs
       message_generation
+      radar_msgs
       shape_msgs
       std_msgs
   )
@@ -39,6 +41,7 @@ if(${ROS_VERSION} EQUAL 1)
   generate_messages(
     DEPENDENCIES
       geometry_msgs
+      radar_msgs
       shape_msgs
       std_msgs
   )
@@ -63,6 +66,7 @@ elseif(${ROS_VERSION} EQUAL 2)
   find_package(ament_cmake REQUIRED)
   find_package(builtin_interfaces REQUIRED)
   find_package(geometry_msgs REQUIRED)
+  find_package(radar_msgs REQUIRED)
   find_package(rosidl_default_generators REQUIRED)
   find_package(shape_msgs REQUIRED)
   find_package(std_msgs REQUIRED)
@@ -81,6 +85,7 @@ elseif(${ROS_VERSION} EQUAL 2)
       geometry_msgs
       shape_msgs
       std_msgs
+      radar_msgs
     ADD_LINTER_TESTS
   )
 

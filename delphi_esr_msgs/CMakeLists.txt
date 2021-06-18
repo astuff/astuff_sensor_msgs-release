@@ -16,8 +16,7 @@ set(MSG_FILES
   "EsrStatus8.msg"
   "EsrStatus9.msg"
   "EsrTrack.msg"
-  "EsrTrackMotionPowerTrack.msg"
-  "EsrTrackMotionPowerGroup.msg"
+  "EsrTrackMotionPower.msg"
   "EsrValid1.msg"
   "EsrValid2.msg"
   "EsrVehicle1.msg"
@@ -25,6 +24,7 @@ set(MSG_FILES
   "EsrVehicle3.msg"
   "EsrVehicle4.msg"
   "EsrVehicle5.msg"
+  "TrackMotionPower.msg"
 )
 
 if(${ROS_VERSION} EQUAL 1)
@@ -51,10 +51,6 @@ if(${ROS_VERSION} EQUAL 1)
 
   catkin_package(
     CATKIN_DEPENDS message_runtime
-  )
-
-  install(DIRECTORY migration
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/
   )
 
 elseif(${ROS_VERSION} EQUAL 2)
@@ -94,10 +90,6 @@ elseif(${ROS_VERSION} EQUAL 2)
     find_package(ament_lint_auto REQUIRED)
     ament_lint_auto_find_test_dependencies()
   endif()
-
-  install(DIRECTORY migration
-    DESTINATION share/${PROJECT_NAME}/
-  )
 
   ament_package()
 
