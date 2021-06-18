@@ -2,10 +2,17 @@
 Changelog for package delphi_mrr_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.0.2 (2020-06-18)
+3.3.0 (2021-06-18)
 ------------------
-* Cherry-pick delphi_mrr_msgs from master
-* Contributors: Ian Colwell
+* Remove unused MRR messages (`#87 <https://github.com/astuff/astuff_sensor_msgs/issues/87>`_)
+* MRR Msgs Cleanup (`#85 <https://github.com/astuff/astuff_sensor_msgs/issues/85>`_)
+* Contributors: icolwell-as
+
+3.2.0 (2021-03-12)
+------------------
+
+3.1.0 (2020-06-17)
+------------------
 
 3.0.1 (2020-01-23)
 ------------------
