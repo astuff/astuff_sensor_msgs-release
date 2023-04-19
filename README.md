@@ -1,3 +1,35 @@
+## astuff_sensor_msgs (rolling) - 3.3.0-1
+
+The packages in the `astuff_sensor_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling --new-track astuff_sensor_msgs` on `Wed, 19 Apr 2023 14:33:28 -0000`
+
+These packages were released:
+- `delphi_esr_msgs`
+- `delphi_mrr_msgs`
+- `delphi_srr_msgs`
+- `derived_object_msgs`
+- `ibeo_msgs`
+- `kartech_linear_actuator_msgs`
+- `mobileye_560_660_msgs`
+- `neobotix_usboard_msgs`
+- `pacmod_msgs`
+
+Version of package(s) in repository `astuff_sensor_msgs`:
+
+- upstream repository: https://github.com/astuff/astuff_sensor_msgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `3.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## astuff_sensor_msgs (noetic) - 3.3.0-1
 
 The packages in the `astuff_sensor_msgs` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic astuff_sensor_msgs` on `Fri, 18 Jun 2021 18:55:51 -0000`
