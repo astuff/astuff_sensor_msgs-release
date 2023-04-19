@@ -1,0 +1,12 @@
+Source: ros-rolling-delphi-mrr-msgs
+Section: misc
+Priority: optional
+Maintainer: AutonomouStuff Software Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-builtin-interfaces, ros-rolling-ros-environment, ros-rolling-rosidl-default-generators, ros-rolling-std-msgs, ros-rolling-ros-workspace, ros-rolling-rosidl-typesupport-fastrtps-c, ros-rolling-rosidl-typesupport-fastrtps-cpp
+Homepage: http://wiki.ros.org/delphi_mrr_msgs
+Standards-Version: 3.9.2
+
+Package: ros-rolling-delphi-mrr-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs, ros-rolling-ros-workspace
+Description: Message definitions for the Delphi MRR
